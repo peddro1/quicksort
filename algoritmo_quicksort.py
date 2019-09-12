@@ -89,13 +89,6 @@ def quickSortIterative(arr,l,h):
             stack[top] = h 
   
 
-arr = [4, 3, 5, 2, 1, 3, 2, 3] 
-n = len(arr) 
-quickSortIterative(arr, 0, n-1) 
-print ("Sorted array is:") 
-for i in range(n): 
-    print ("%d" %arr[i]), 
-  
 
 for i in range(len(x2)):
     
